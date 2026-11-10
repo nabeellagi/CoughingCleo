@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TouchPad_D15mm")(type "KiCad")(uri "${KIPRJMOD}/TouchPad_D15mm.pretty")(options "")(descr ""))
+)
