@@ -29,7 +29,7 @@ Poor air quality monitor
 ## What is Coughing Cleo?
 
 <div align="center">
-    <img src="footages/face.gif" width="600" controls></video>
+    <img src="footages/face.gif" width="600" controls></img>
 </div>
 
 Coughing Cleo is an ESP32 based digital pet that detects the air quality using ENS160 sensor that will play a coughing noise if the sensor reads poor air quality.
