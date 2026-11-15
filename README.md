@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<div align="center">
 
 # **COUGHING CLEO**
 
@@ -28,7 +28,9 @@ Poor air quality monitor
 
 ## What is Coughing Cleo?
 
-<video src="footages/face.mp4" width="600" controls></video>
+<div align="center">
+    <img src="footages/face.gif" width="600" controls></video>
+</div>
 
 Coughing Cleo is an ESP32 based digital pet that detects the air quality using ENS160 sensor that will play a coughing noise if the sensor reads poor air quality.
 
@@ -45,12 +47,14 @@ Right now we have :
 5. Jolly when pet
 6. IDLE
 
-<img src="Face-Sprite/sprite/small_cough0.png" /> 
-<img src="Face-Sprite/sprite/big_cough0.png" /> 
-<img src="Face-Sprite/sprite/hot1.png" /> 
-<img src="Face-Sprite/sprite/annoyed1.png" /> 
-<img src="Face-Sprite/sprite/pet1.png" />
-<img src="Face-Sprite/sprite/idle0.png" /> 
+<p align="center">
+  <img src="Face-Sprite/sprite/small_cough0.png" width="100" />
+  <img src="Face-Sprite/sprite/big_cough0.png" width="100" />
+  <img src="Face-Sprite/sprite/hot1.png" width="100" />
+  <img src="Face-Sprite/sprite/annoyed1.png" width="100" />
+  <img src="Face-Sprite/sprite/pet1.png" width="100" />
+  <img src="Face-Sprite/sprite/idle0.png" width="100" />
+</p>
 
 Also you can see Cleo and its companion at the back part of the bottom enclosure artwork!
 
