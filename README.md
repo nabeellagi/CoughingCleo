@@ -6,6 +6,8 @@ Poor air quality monitor
 
 *If air == bad -> cough!*
 
+<img src="Stickers/render/logo.png" /> 
+
 </div>
 
 ---
