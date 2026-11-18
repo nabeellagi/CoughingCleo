@@ -2,7 +2,7 @@
 
 # **COUGHING CLEO**
 
-Poor air quality monitor
+Poor air quality monitor.
 
 *If air == bad -> cough!*
 
@@ -19,8 +19,10 @@ Poor air quality monitor
 - [Why Cleo?](#why-cleo)
 - [How to use it?](#how-to-use-it)
 - [Footages](#footages)
+    - [PCB and Schematics](#pcb-and-schematics)
+        - [Custom ESP32-S3 Chip Based](#custom-esp32-s3-chip-based)
+        - [XIAO ESP32-S3 Based](#xiao-esp32-s3-based)
     - [Enclosure and Assembly](#enclosure-and-assembly)
-    - [PCB](#pcb)
     - [Schematics](#schematics)
     - [Stickers](#stickers)
 - [What softwares do I need?](#what-softwares-do-i-need)
@@ -82,6 +84,7 @@ After you assembled the whole thing and flashed the firmware into the PCB as wel
 
 1. Plug it into a power source using USB type C.
 2. Whether you make it stand horizontally or vertically, make sure the backpart, specifically the sensor area, is exposed to the open space.
+3. Plug in a speaker to the JST connection
 
 Now Cleo the Cat will tell you if there's something wrong with your air!
 
@@ -91,6 +94,49 @@ Additionally, you can access the web interface to change the coughing sound or e
 
 ## Footages
 Take a look at Coughing Cleo!
+
+### PCB and Schematics
+
+There are two PCB and Schematics provided inside this repository
+
+1. The Custom PCB : A customized PCB with bare ESP32 (ESP32-S3-WROOM-1U-N8R8) chip soldered directly
+2. XIAO Based PCB Board : Custom PCB board that utilizes mini XIAO ESP32-S3 DIP solder.
+
+| **Custom ESP32 WROOM chip based**                            | **Seeed Studio XIAO ESP32-S3 based**              |
+|----------------------------------------------------------|-----------------------------------------------|
+| Included on JLCPCB Standard PCBA Service                 | Solder it yourself                            |
+| More expensive because it utilizes Standard PCBA service | Cheaper because it uses Economic PCBA service |
+| 4 Layers with power pour                                 | 4 Layers without power pour                   |
+
+Now here are the screenshots:
+
+#### Custom ESP32-S3 Chip Based
+
+The Schematic
+
+<img src="Footages/Custom-PCB/pcb_schematics.png" /> 
+
+The PCB
+
+<img src="Footages/Custom-PCB/pcb.png" />
+<img src="Footages/Custom-PCB/pcb_front.png" />
+<img src="Footages/Custom-PCB/pcb_back.png" />
+
+
+#### XIAO ESP32-S3 Based
+
+The Schematic
+
+<img src="Footages/XIAO-Based/pcb_schematics.png" /> 
+
+The PCB
+
+<img src="Footages/XIAO-Based/pcb.png" /> 
+<img src="Footages/XIAO-Based/pcb_front.png" /> 
+<img src="Footages/XIAO-Based/pcb_back.png" /> 
+
+
+---
 
 ### Enclosure and Assembly
 
@@ -105,14 +151,6 @@ You'll need
 <img src="Footages/screw.png" /> 
 <img src="Footages/screws.png" /> 
 
-### PCB
-<img src="Footages/pcb.png" /> 
-<img src="Footages/pcb_front.png" />
-<img src="Footages/pcb_back.png" /> 
-
-### Schematics
-Read the PDF file for a better look!
-<img src="Footages/pcb_schematics.png" /> 
 
 ### Stickers
 <img src="Stickers/placement_guide/shield_upper.png" /> 
@@ -136,4 +174,12 @@ There are various of tools were used to design Coughing Cleo. Here are the tools
 ---
 
 ## BOM
-(tba)
+
+### Main BOM
+(TBA)
+
+### Other BOMs
+
+1. JLCPCB and KiCad Fabrication tool generated
+    - `BOM\Custom-PCB\bom-JLCPCB Assembly Order.xls`
+    - `BOM\XIAO-Based\bom-JLCPCB Assembly Order.xls`
