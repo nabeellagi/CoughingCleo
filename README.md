@@ -18,6 +18,7 @@ Poor air quality monitor.
     - [What are Cleo's expression?](#what-are-cleos-expression)
 - [Why Cleo?](#why-cleo)
 - [How to use it?](#how-to-use-it)
+- [What Does This Repository Include?](#what-does-this-repository-include)
 - [Footages](#footages)
     - [PCB and Schematics](#pcb-and-schematics)
         - [Custom ESP32-S3 Chip Based](#custom-esp32-s3-chip-based)
@@ -92,6 +93,22 @@ Additionally, you can access the web interface to change the coughing sound or e
 
 ---
 
+## What Does This Repository Include?
+
+In this repository you'll get :
+
+1. The **PCB File** inside `PCB` folder which includes both PCB and Schematics
+2. The **Enclosure File** inside `Enclosure` folder
+3. The **Default Audio** Files inside `Default-Audio` folder
+4. The **Artwork Files** inside `Stickers` folder which includes both the editable layout file  in form of Inkscape `.svg` and the art itself
+5. The **Sprite Files** inside `Face-Sprite` folder
+    - There's also face sprite code module test using Wokwi simulation that utilizes different sensor because of its limited feature located inside `Face-Sprite/wokwi-test`
+6. The **Web Interface Files** inside  `Web-Interface` which has :
+    - The UI design files
+    - The Vite-Based web user interface located inside `Web-Interface/esp32-web-interface`
+
+---
+
 ## Footages
 Take a look at Coughing Cleo!
 
@@ -163,14 +180,14 @@ You'll need
 
 There are various of tools were used to design Coughing Cleo. Here are the tools that you might need to install to open the project files!
 
-1. PCB ➜  Use **KiCad** to open/edit schematics and PCB
-2. Enclosure ➜ Use **FreeCAD** to open/edit the enclosure model
-3. Face Sprite ➜  Use **Aseprite** or **Resprite** to open the .aseprite file to access Cleo The Cat faces
+1. PCB ➜  Use [**KiCad**](https://www.kicad.org/download/) to open/edit schematics and PCB
+2. Audio Files ➜ Use [**Audacity 4**](https://www.musehub.com/en-us/app/audacity) in order to open the audio file projects
+3. Enclosure ➜ Use [**FreeCAD**](https://www.freecad.org/downloads.php?lang=en) to open/edit the enclosure model.
+4. Face Sprite ➜  Use [**Aseprite**](https://aseprite.org/) or [**Resprite**](https://resprite.fengeon.com/) to open the .aseprite file to access Cleo The Cat faces
     - As for the face module test you can paste the project codes or import it to Wokwi or **[Here](https://wokwi.com/projects/479777241218679809)**
-4. Sticker Artwork ➜ inside `ibis_files` folder you can found .ipv files, use **Ibis Paint X app** to access the art work files
-5. Sticker Print ➜ Feel free to print the PDF or you can change the layout using **Inkscape**
-6. Web Interface UI design ➜ Use **Penpot** to open the web interface design
-
+5. Sticker Artwork ➜ inside `ibis_files` folder you can found .ipv files, use [**Ibis Paint X**](https://ibispaint.com/?lang=en-US) to access the art work files
+6. Sticker Print ➜ Feel free to print the PDF or you can change the layout using [**Inkscape**](https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/)
+7. Web Interface UI design ➜ Use [**Penpot**](https://penpot.app/) to open the web interface design
 ---
 
 ## BOM
