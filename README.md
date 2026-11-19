@@ -26,6 +26,7 @@ Poor air quality monitor.
     - [Enclosure and Assembly](#enclosure-and-assembly)
     - [Schematics](#schematics)
     - [Stickers](#stickers)
+    - [Web Interface](#web-interface)
 - [What softwares do I need?](#what-softwares-do-i-need)
 
 ---
@@ -105,7 +106,7 @@ In this repository you'll get :
     - There's also face sprite code module test using Wokwi simulation that utilizes different sensor because of its limited feature located inside `Face-Sprite/wokwi-test`
 6. The **Web Interface Files** inside  `Web-Interface` which has :
     - The UI design files
-    - The Vite-Based web user interface located inside `Web-Interface/esp32-web-interface`
+    - The Vite-Based + Solid.Js web user interface located inside `Web-Interface/esp32-web-interface`
 
 ---
 
@@ -174,6 +175,9 @@ You'll need
 <img src="Stickers/placement_guide/bottom_back.png" /> 
 <img src="Stickers/placement_guide/paw_stand.png" /> 
 
+### Web Interface
+<img src="Footages/web-interface.png" /> 
+
 ---
 
 ## What softwares do I need?
@@ -188,6 +192,8 @@ There are various of tools were used to design Coughing Cleo. Here are the tools
 5. Sticker Artwork ➜ inside `ibis_files` folder you can found .ipv files, use [**Ibis Paint X**](https://ibispaint.com/?lang=en-US) to access the art work files
 6. Sticker Print ➜ Feel free to print the PDF or you can change the layout using [**Inkscape**](https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/msi/dl/)
 7. Web Interface UI design ➜ Use [**Penpot**](https://penpot.app/) to open the web interface design
+8. Web Interface Development ➜ In order to run the web interface locally for testing and development, you may use [Node.Js](https://nodejs.org/en)
+    - After that change your directory into `cd Web-Interface/esp32-web-interface` and go ahead run `npm install` and to run it `npm run dev`
 ---
 
 ## BOM
@@ -200,3 +206,9 @@ There are various of tools were used to design Coughing Cleo. Here are the tools
 1. JLCPCB and KiCad Fabrication tool generated
     - `BOM\Custom-PCB\bom-JLCPCB Assembly Order.xls`
     - `BOM\XIAO-Based\bom-JLCPCB Assembly Order.xls`
+
+---
+
+## Development Status 
+
+The project is still in progress!
