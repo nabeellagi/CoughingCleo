@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@utility frame {
+    container-type : inline-size;
+    --spacing : calc(100cqw / 97.5)
+}
+
+@utility text-d-* {
+    font-size: calc(100cqw * --value(integer) / 390);
+    line-height: 1.15;
+}
+
+@font-face {
+    font-family: "DynaPuff";
+    src: url("/fonts/DynaPuff.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FingerPaint";
+    src: url("/fonts/FingerPaint.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+  --font-dynapuff: "DynaPuff", sans-serif;
+  --font-fingerpaint: "FingerPaint", sans-serif;
+}
+
+.slim-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(234 225 182 / 0.55) transparent;
+}
+
+@supports selector(::-webkit-scrollbar) {
+    .slim-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+    .slim-scroll::-webkit-scrollbar-track { background: transparent; }
+    .slim-scroll::-webkit-scrollbar-thumb { background: rgb(234 225 182 / 0.55); }
+    .slim-scroll::-webkit-scrollbar-thumb:hover { background: rgb(234 225 182 / 0.85); }
+}
