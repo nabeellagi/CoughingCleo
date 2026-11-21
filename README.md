@@ -202,9 +202,14 @@ The PCB
 <img src="Footages/case_back.png" /> 
 <img src="Footages/case_front.png" /> 
 
-You'll need
+For the assembly itself you'll need
+
 1. 3 pcs of M3x8 screws
 2. A piece of M3x12 screw
+
+Why the screw differences? As you can see on the image below, one hole has a higher level than the other. To make sure the screw to be able to bite the bottom part of the enclosure, we need a taller one!
+
+After that you can put on the stickers and plug the speaker in using the JST connection.
 
 <img src="Footages/screw.png" /> 
 <img src="Footages/screws.png" /> 
