@@ -165,6 +165,7 @@ There are two PCB and Schematics provided inside this repository
 | Included on JLCPCB Standard PCBA Service                 | Solder it yourself                            |
 | More expensive because it utilizes Standard PCBA service | Cheaper because it uses Economic PCBA service |
 | 4 Layers with power pour                                 | 4 Layers without power pour                   |
+| Gerber [Click here](PCB\Custom-PCB\production\PCB.zip)   | Gerber [Click here](PCB\XIAO-Based\production\PCB.zip)                |
 
 Now here are the screenshots:
 
