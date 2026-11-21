@@ -28,7 +28,9 @@ Poor air quality monitor.
     - [Stickers](#stickers)
     - [Web Interface](#web-interface)
 - [What softwares do I need?](#what-softwares-do-i-need)
-
+- [BOM](#bom)
+    - [Main BOM](#main-bom)
+    - [Other BOMs](#other-boms)
 ---
 
 
@@ -77,6 +79,44 @@ Many pollutants have no smell or colors! That is why sometimes we didn't realize
 By having Coughing Cleo inside your room or any other place, you'd be able to hear its cough and then take an action regarding the poor air quality! Whether you move to another place, open a window, or take any other action, Cleo will be the one to remind you to do it!
 
 My inspiration for this project was the Karhutla event in Indonesia, or Forest Fires. Although the sensor itself doesn't detect the particles from forest fires' smoke or solve the pollution issue directly, Coughing Cleo is made to raise the awareness of how important air quality is to a human being!
+
+---
+
+## Cleo's Coughing Condition
+
+Based on the sensor readings, this is the table for Cleo's cough.
+
+### **TVOC LEVEL**
+
+| TVOC (PPB)  | Indication   | Cough             |
+|-------------|--------------|-------------------|
+| < 150       | Safe         | No Cough          |
+| 150 - 500   | Acceptable   | Single Cough      |
+| 500 - 1500  | Conspicuous  | Small Cough       |
+| 1500 - 5000 | Concerning   | Big Cough         |
+| > 5000      | Unacceptable | Big Cough, louder |
+
+
+### **eCO₂**
+
+| eCO₂        | Cough             |
+|-------------|-------------------|
+| 400 - 600   | No Cough          |
+| 600 - 800   | No Cough          |
+| 800 - 1000  | Small Cough       |
+| 1000 - 1500 | Big Cough         |
+| > 1500      | Big Cough, louder |
+
+### **AQI-UBA**
+
+| AQI-UBA | Cough             |
+|---------|-------------------|
+| 1       | No Cough          |
+| 2       | No Cough          |
+| 3       | Small Cough       |
+| 4       | Big Cough         |
+| 5       | Big Cough, louder |
+
 
 ---
 
@@ -199,7 +239,11 @@ There are various of tools were used to design Coughing Cleo. Here are the tools
 ## BOM
 
 ### Main BOM
-(TBA)
+
+Even though there's the PCB BOMs, the actual full item BOM is located at
+[`BOM/main.csv`](BOM/main.csv).
+You can also read the [PDF version](BOM/main.pdf) or access the [XLSX version](BOM/main.xlsx)
+
 
 ### Other BOMs
 
